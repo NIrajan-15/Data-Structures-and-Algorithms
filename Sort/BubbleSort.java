@@ -1,3 +1,4 @@
+package Sort;
 
 // Bubble Sort Algorithm 
 /*  
@@ -33,10 +34,11 @@ public class BubbleSort{
 
    static void sortalgo(int[] arr)
    {
-      
+      boolean sort;
       // outer loop to check every element
       for(int i=0;i<arr.length;i++)
       {
+            sort = true;
          /*
             Number of times inner loop runs reduce in each iteration as 
             the largest number would be swapped to end of array in ascending order
@@ -49,7 +51,15 @@ public class BubbleSort{
                 int temp = arr[j];
                arr[j] = arr[j+1];
                arr[j+1] = temp;
+               sort = false;
             }
+         }
+         /* if we didn't had to sort for that element in first position then 
+            we don't have to check for others
+         */ 
+         if(!sort)
+         {
+            break;
          }
       }
       
