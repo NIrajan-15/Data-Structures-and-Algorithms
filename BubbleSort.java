@@ -26,13 +26,21 @@ public class BubbleSort{
    
    }
    
-   // This metohd is static because it doesn't belong to any class.
+   /*
+      Static method to access without any objects
+      takes array arr to sort it
+   */ 
+
    static void sortalgo(int[] arr)
    {
       
-      
+      // outer loop to check every element
       for(int i=0;i<arr.length;i++)
       {
+         /*
+            Number of times inner loop runs reduce in each iteration as 
+            the largest number would be swapped to end of array in ascending order
+         */
          for(int j=0;j<arr.length-i-1;j++)
          {
             if(arr[j]>arr[j+1])
