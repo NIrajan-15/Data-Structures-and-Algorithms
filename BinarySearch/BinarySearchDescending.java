@@ -1,5 +1,6 @@
+package BinarySearch;
 
-// Binary Search Algorithm for Sorted Ascending Array
+// Binary Search Algorithm for Sorted Descending Array
 /*  
    time complextiy: 
       best : O(1) -> If the target element is the middle element of the array
@@ -9,14 +10,14 @@
       O(1) -> no new arrays are required for copying or whatever
 */
 
-public class BinarySearchAscending {
+public class BinarySearchDescending {
     public static void main(String[] args)
     {
         // the array in which we will search
-        int[] arr = {1,2,3,4,7,8,12,55,88};
+        int[] arr = {88,44,55,7,2,1};
 
         // target we are search for in the array
-        int target = 55;
+        int target = 1;
 
         // print the index of the target
         System.out.print(search(arr,target));
@@ -47,15 +48,15 @@ public class BinarySearchAscending {
             //if target is smaller than middle element then end index would be mid-1 i.e. size of array would be first half of the array
             if(target<arr[mid])
             {
-                end = mid-1;
+                start = mid+1;
             }
             //if target is greater than middle element then end index would be mid+1 i.e. size of array would be second half of the array
             else{
-                start= mid+1;
+                end= mid-1;
             }
 
         }
-        //if target is not found then return 0;
+        //if target is not found then return -1;
         return -1;
 
     }
