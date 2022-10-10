@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearchAscending",
+            "request": "launch",
+            "mainClass": "BinarySearch.BinarySearchAscending",
+            "projectName": "DSA_bef3a9d9"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearchDescending",
+            "request": "launch",
+            "mainClass": "BinarySearch.BinarySearchDescending",
+            "projectName": "DSA_bef3a9d9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fibonacci",
+            "request": "launch",
+            "mainClass": "Recusrion.Fibonacci",
+            "projectName": "DSA_bef3a9d9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice",
+            "request": "launch",
+            "mainClass": "Recusrion.Practice",
+            "projectName": "DSA_bef3a9d9"
+        },
+        {
+            "type": "java",
+            "name": "Launch RecursiveBinarySearch",
+            "request": "launch",
+            "mainClass": "Recusrion.RecursiveBinarySearch",
+            "projectName": "DSA_bef3a9d9"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleSort",
+            "request": "launch",
+            "mainClass": "Sort.BubbleSort",
+            "projectName": "DSA_bef3a9d9"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertionSort",
+            "request": "launch",
+            "mainClass": "Sort.InsertionSort",
+            "projectName": "DSA_bef3a9d9"
+        },
+        {
+            "type": "java",
+            "name": "Launch SelectionSort",
+            "request": "launch",
+            "mainClass": "Sort.SelectionSort",
+            "projectName": "DSA_bef3a9d9"
+        }
+    ]
+}
