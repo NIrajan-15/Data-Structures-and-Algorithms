@@ -22,13 +22,17 @@ public class SelectionSort {
         // array to sort
         int[] arr = {1,2,5,6,77,8,9};
         //calling function to sort the array
-        sortAlgo(arr);
+        sort(arr);
         //print the array
         System.out.println(Arrays.toString(arr));
     }
 
-    // static method to call without an object
-    static void sortAlgo(int[] arr)
+    /* 
+     * Static method sort 
+     * Takes integer array arr as parameter
+     * Returns the same array but sorted
+     */
+    static void sort(int[] arr)
     {
         // check for all elements in the array
         for(int i=0;i<arr.length;i++)

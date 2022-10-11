@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CyclicSort",
+            "request": "launch",
+            "mainClass": "Sort.CyclicSort",
+            "projectName": "DSA_bef3a9d9"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

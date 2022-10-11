@@ -20,14 +20,14 @@ public class InsertionSort {
     {
         // Array to be sorted
         int[] arr = {4,5,1,2,3};
-        System.out.println(Arrays.toString(search(arr)));
+        System.out.println(Arrays.toString(sort(arr)));
     }
     /* 
-     * Static method search 
-     * Takes integer array arr as paremeter
+     * Static method sort 
+     * Takes integer array arr as parameter
      * Returns the same array but sorted
      */
-    static int[] search(int[] arr)
+    static int[] sort(int[] arr)
     {
         // To loop until second last element
         for(int i=0;i<arr.length-1;i++)

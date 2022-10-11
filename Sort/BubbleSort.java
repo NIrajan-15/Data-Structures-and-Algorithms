@@ -27,11 +27,11 @@ public class BubbleSort{
    
    }
    
-   /*
-      Static method to access without any objects
-      takes array arr to sort it
-   */ 
-
+   /* 
+     * Static method sort 
+     * Takes integer array arr as parameter
+     * Returns the same array but sorted
+     */
    static void sortalgo(int[] arr)
    {
       boolean sort;
