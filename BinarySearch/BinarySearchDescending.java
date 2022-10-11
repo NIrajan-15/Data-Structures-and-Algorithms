@@ -23,11 +23,11 @@ public class BinarySearchDescending {
         System.out.print(search(arr,target));
     }
 
-    /* static method to accesss without any objects
-       takes array arr to search target in that array.  
-    
-    */ 
-    
+    /* 
+     * Static method search 
+     * Takes integer array arr, and target to be searched as parameter
+     * Returns the index of the target if found or -1.
+     */
     static int search(int[] arr, int target)
     {
         // start and end postion to reduce the size of the array in each iteration 
