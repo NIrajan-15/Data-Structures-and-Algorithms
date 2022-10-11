@@ -7,7 +7,11 @@ public class Fibonacci{
         System.out.println(fibo(8));
     }
 
-    // function to find the fibonacci number
+    /* 
+     * Static method sort 
+     * Takes integer n as parameter i.e nth number of the sequence
+     * Returns the nth number of fibonacci sequence
+     */
     static int fibo(int n)
     {
         /*

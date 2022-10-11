@@ -18,12 +18,12 @@ public class RecursiveBinarySearch {
 
 
     /*
-        Static function to call without any objects
-        takes the start position, end position, target and the array to search
-        return -1 if not found
-        return mid value if tatget lies in that index
-        if target is small than element in the mid index then return function recBinSearch(i.e. recursion) with changed parameters i.e half of the array
-        if the target is larger than element in the mid index then return function recBinSearch(i.e. recursion) with changed parameters i.e half of the array
+      *  Static function to call without any objects
+      *  takes the start position, end position, target and the array to search as parameter
+      *  return -1 if not found
+      *  return mid value if tatget lies in that index
+      *  if target is small than element in the mid index then return function recBinSearch(i.e. recursion) with changed parameters i.e half of the array
+      *  if the target is larger than element in the mid index then return function recBinSearch(i.e. recursion) with changed parameters i.e half of the array
     */ 
     static int recBinSearch(int start, int end, int target, int[] arr)
     {
