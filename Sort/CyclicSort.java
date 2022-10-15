@@ -18,7 +18,7 @@ public class CyclicSort {
     public static void main(String[] args)
     {
         // Array to be sorted
-        int[] arr = {10,8,6,5,9,1,3,7,2,4};
+        int[] arr = {1,3,2};
         System.out.println(Arrays.toString(sort(arr)));
         
     }
